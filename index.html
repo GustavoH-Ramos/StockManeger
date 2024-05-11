@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>StockManeger</title>
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <img src="img/StockManagerLogo..svg" alt="Logo StockManeger" class="logo">
+            <ul class="links__cabecalho">
+                <li class="cabecalho__item">
+                    <a href="/index.html" class="link">Home</a>
+                </li>
+                <li class="cabecalho__item">
+                    <a href="/pages/gestao.html" class="link">Gestão</a>
+                </li>
+                <li class="cabecalho__item">
+                    <a href="/pages/estoque.html" class="link">Estoque</a>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section class="caixa">
+            <h1 class="titulo">Bem vindo ao StockManeger</h1>
+            <div class="container">
+                <span class="titulo__container">Realize o pedido</span>
+                <p class="texto__container">Selecione os produtos.</p>
+                    <ul class="lista__input">
+                        <li class="pedido__input">
+                            <span>Nome:</span>
+                            <input type="" class="caixa__produto" required placeholder="Nome do produto" data-pesquisa>
+                        </li>
+                        <li class="pedido__input">
+                            <span>Quantidade:</span>
+                            <input type="" class="caixa__produto" required placeholder="Quantidade do produto" id="quantidadeVenda">
+                        </li>
+                    </ul>
+                    <button class="botao" id="botaoAdicionar">Adicionar</button>
+
+                <div class="pedido">
+                    <span class="titulo__container">Pedido</span>
+                    <ul class="lista__pedido">
+                        <!-- <li class="pedido__item">
+                            <div class="pedido__caixa">
+                                <span class="pedido__texto">Pamonha</span>
+                                <span class="pedido__texto">X1</span>
+                            </div>
+                            <span class="pedido__texto">R$12.00</span>
+                        </li>
+                        <li class="pedido__item">
+                            <div class="pedido__caixa">
+                                <span class="pedido__texto">Café</span>
+                                <span class="pedido__texto">X1</span>
+                            </div>
+                            <span class="pedido__texto">R$12.00</span>
+                        </li>
+                        <li class="pedido__item">
+                            <div class="pedido__caixa">
+                                <span class="pedido__texto">Pão</span>
+                                <span class="pedido__texto">X1</span>
+                            </div>
+                            <span class="pedido__texto">R$12.00</span>
+                        </li> -->
+                    </ul>
+                    <span class="total">Total: R$00,00</span>
+                </div>
+                <button class="botao" id="finalizar">Finalizar</button>
+            </div>
+        </section>
+    </main>
+    <script src="/js/venda.js" type="module"></script>
+</body>
+</html>

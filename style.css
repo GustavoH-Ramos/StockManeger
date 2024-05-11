@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('/styles/header.css');
+@import url("/styles/main.css");
+@import url('/styles/table.css');
+
+:root {
+    --fonte-principal: "Archivo", sans-serif;
+    --azul-escuro: #2f4a75ff;
+    --azul: #0054dbff;
+    --cor-de-fundo: #fff;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+}

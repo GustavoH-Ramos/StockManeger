@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "nome": "Pamonha",
+      "quantidade": 6,
+      "valorDeCompra": "6,00",
+      "valorDeVenda": "12,00",
+      "data": "08/05/2024",
+      "id": 1
+    },
+    {
+      "nome": "Café",
+      "quantidade": 22,
+      "valorDeCompra": "6,00",
+      "valorDeVenda": "12,00",
+      "data": "04/05/2024",
+      "id": 2
+    },
+    {
+      "nome": "Sal",
+      "quantidade": 7,
+      "valorDeCompra": "4,00",
+      "valorDeVenda": "10,00",
+      "data": "23/04/2024",
+      "id": 3
+    },
+    {
+      "nome": "Açucar",
+      "quantidade": 7,
+      "valorDeCompra": "5,00",
+      "valorDeVenda": "10,00",
+      "data": "23/04/2024",
+      "id": 4
+    },
+    {
+      "nome": "Carne",
+      "quantidade": 41,
+      "valorDeCompra": "20,00",
+      "valorDeVenda": "40,00",
+      "data": "08/05/2024",
+      "id": 6
+    },
+    {
+      "nome": "Bacon",
+      "quantidade": 997,
+      "valorDeCompra": "3,80",
+      "valorDeVenda": "7,99",
+      "data": "11/05/2024",
+      "id": 7
+    }
+  ]
+}

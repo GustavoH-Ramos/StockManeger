@@ -1,0 +1,190 @@
+.caixa {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin: 6em 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 50px;
+    color: var(--azul);
+    font-weight: 700;
+    font-style: italic;
+}
+
+.legenda {
+    font-size: 30px;
+    color: var(--azul-escuro);
+}
+
+.container {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    width: 80%;
+    border: 10px solid var(--azul-escuro);
+    border-radius: 20px;
+}
+
+.titulo__container {
+    font-size: 40px;
+    color: var(--azul-escuro);
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+.texto__container {
+    font-size: 30px;
+    margin: 2em 0;
+}
+
+.lista__input {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0 0 3em 0;
+    width: 60%;
+}
+
+.pedido__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.pedido__input span {
+    font-size: 26px;
+}
+
+.caixa__produto {
+    padding: 0.5em;
+    width: 800px;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-left: 2em;
+}
+
+.botao {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    background-color: var(--azul-escuro);
+    color: var(--cor-de-fundo);
+    padding: 0.5em;
+    border-radius: 20px;
+    width: 15%;
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.pedido {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 90%;
+    margin: 2em 0;
+}
+
+.lista__pedido {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 4em;
+}
+
+.pedido__item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted var(--azul-escuro);
+    padding: 1em;
+}
+
+.pedido__caixa {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.pedido__texto {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.total {
+    font-size: 32px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.modificar {
+    display: flex;
+    gap: 2em;
+}
+
+#atualizar {
+    background-color: green;
+}
+
+#deletar {
+    background-color: red;
+}
+
+.hidde {
+    display: none;
+}
+
+.botoes button {
+    margin: 0;
+    width: 10em;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+    margin: 2em 0 1em 0;
+    border-bottom: 2px solid var(--azul-escuro);
+    gap: 1em;
+}
+
+.botao__opcoes {
+    padding: 0.5em 2em;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--cor-de-fundo);
+    border: 2px solid var(--azul-escuro);
+    transition: 0.5s ease;
+}
+
+#botaoTelaCadastro {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#botaoTelaAtualizar {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.active {
+    background-color: var(--azul);
+    color: var(--cor-de-fundo);
+}
+
+.estoque__pesquisar {
+    display: flex;
+    gap: 1em;
+}

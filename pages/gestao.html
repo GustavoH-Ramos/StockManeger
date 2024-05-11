@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>StockManeger</title>
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <img src="/img/StockManagerLogo..svg" alt="Logo StockManeger" class="logo">
+            <ul class="links__cabecalho">
+                <li class="cabecalho__item">
+                    <a href="/index.html" class="link">Home</a>
+                </li>
+                <li class="cabecalho__item">
+                    <a href="/pages/gestao.html" class="link">Gestão</a>
+                </li>
+                <li class="cabecalho__item">
+                    <a href="/pages/estoque.html" class="link">Estoque</a>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section class="caixa">
+            <h1 class="titulo">Gestão de produtos</h1>
+            <div class="opcoes">
+                <button id="botaoTelaCadastro" class="botao__opcoes active">Cadastre</button>
+                <button id="botaoTelaAtualizar"  class="botao__opcoes">Atualize</button>
+            </div>
+            <form id="telaCadastrar" class="container" data-formulario>
+                <span class="titulo__container">Cadastre um produto</span>
+                <br><br><br><br><br>
+                    <ul class="lista__input">
+                        <li class="pedido__input">
+                            <span>Nome:</span>
+                            <input type="" class="caixa__produto" placeholder="Nome do produto" data-nome>
+                        </li>
+                        <li class="pedido__input">
+                            <span>Quantidade:</span>
+                            <input type="" class="caixa__produto" placeholder="Quantidade do produto" data-quantidade>
+                        </li>
+                        <li class="pedido__input">
+                            <span>Valor de compra:</span>
+                            <input type="" class="caixa__produto" placeholder="Valor de compra do produto" data-valorCompra>
+                        </li>
+                        <li class="pedido__input">
+                            <span>Valor de venda:</span>
+                            <input type="" class="caixa__produto" placeholder="Valor de venda do produto" data-valorVenda>
+                        </li>
+                    </ul>
+                    <div class="botoes">
+                        <button id="botaoCadastrar" class="botao" type="submit">Cadastrar</button>
+                    </div>
+            </form>
+            <form id="telaAtualizar" class="container hidde">
+                <span class="titulo__container">Atualize um produto</span>
+                <br><br><br><br><br>
+                <div class="estoque__pesquisar">
+                    <input type="search" placeholder="Pesquisar" id="pesquisar" class="caixa__produto" data-pesquisa>
+                    <button class="botao" data-botao-pesquisa>Consultar</button>
+                </div>
+                <br><br><br><br><br>
+                    <ul class="lista__input" id="campos">
+                         <!--<li class="pedido__input">
+                            <span>Nome:</span>
+                            <input type="" class="caixa__produto" placeholder="Nome do produto" value="" id="nome">
+                        </li>
+                        <li class="pedido__input">
+                            <span>Quantidade:</span>
+                            <input type="" class="caixa__produto" placeholder="Quantidade do produto" value="" id="quantidade">
+                        </li>
+                        <li class="pedido__input">
+                            <span>Valor de compra:</span>
+                            <input type="" class="caixa__produto" placeholder="Valor de compra do produto" value="" id="">
+                        </li>
+                        <li class="pedido__input">
+                            <span>Valor de venda:</span>
+                            <input type="" class="caixa__produto" placeholder="Valor de venda do produto" value="" data-valorVenda2>
+                        </li>-->
+                    </ul> 
+                    <div class="botoes">
+                        <div class="modificar">
+                            <button id="atualizar" class="botao">Atualizar</button>
+                            <button class="botao" id="deletar">Deletar</button>
+                        </div>
+                    </div> 
+            </form>
+        </section>
+    </main>
+    <script src="/js/criarProduto.js" type="module"></script>
+    <script src="/js/modificarProdutos.js" type="module"></script>
+    <script src="/js/produtoCampos.js" type="module"></script>
+    <script src="/js/deletarProduto.js" type="module"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
